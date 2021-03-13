@@ -4,7 +4,7 @@ pipeline {
         pollSCM "* * * * *"
      }
     environment {
-        GITHUB = credentials('gitHubCredentials')
+        GITHUB = credentials('github')
 
     }
 
