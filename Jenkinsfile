@@ -1,4 +1,4 @@
-//Jenkins Multibranch pipeline that builds a simple Java App, builds a container image and pushes it to Docker Hub.
+//Jenkins Multibranch pipeline that builds a simple Java App, builds a container image and pushes it to Docker Hub automatically
 
 pipeline {
     agent any
